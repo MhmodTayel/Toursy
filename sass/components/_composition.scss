@@ -6,6 +6,8 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
     position: absolute;
+    transition: all 0.5s;
+    outline-offset: 1.5rem;
 
     &--p1 {
       left: 0;
@@ -21,5 +23,17 @@
       left: 20%;
       top: 10rem;
     }
+
+    &:hover {
+      outline: 1rem solid $color-primary;
+      z-index: 1;
+      transform: scale(1.1) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
+  }
+
+  // when hover the composition then select photo that is not hovered
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.8);
   }
 }
