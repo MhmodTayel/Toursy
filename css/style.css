@@ -86,11 +86,48 @@ body {
     transform: scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
 
+.py-1 {
+  margin-bottom: 1rem; }
+
+.py-2 {
+  margin-bottom: 2rem; }
+
+.py-3 {
+  margin-bottom: 3rem; }
+
+.py-4 {
+  margin-bottom: 4rem; }
+
+.py-5 {
+  margin-bottom: 5rem; }
+
+.py-6 {
+  margin-bottom: 6rem; }
+
+.py-7 {
+  margin-bottom: 7rem; }
+
 .py-8 {
   margin-bottom: 8rem; }
+
+.py-9 {
+  margin-bottom: 9rem; }
+
+.py-10 {
+  margin-bottom: 10rem; }
 
 .btn:link,
 .btn .btn:visited {
@@ -138,6 +175,42 @@ body {
   animation-duration: 1s;
   /* apply 0% animation before the animation start */
   animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  text-decoration: none;
+  color: #55c57a;
+  display: inline-block;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+  font-size: 1.6rem; }
+
+.btn-text:hover {
+  background-color: #55c57a;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  transition: all 0.2s; }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(2px); }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute; }
+    .composition__photo--p1 {
+      left: 0;
+      top: -2rem; }
+    .composition__photo--p2 {
+      right: 0;
+      top: 2rem; }
+    .composition__photo--p3 {
+      left: 20%;
+      top: 10rem; }
 
 .header {
   height: 95vh;
