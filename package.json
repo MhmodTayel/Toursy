@@ -1,0 +1,22 @@
+{
+  "name": "toursy",
+  "version": "1.0.0",
+  "description": "Landing page for Toursy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MhmodTayel/Toursy.git"
+  },
+  "author": "Mahmoud Tayel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MhmodTayel/Toursy/issues"
+  },
+  "homepage": "https://github.com/MhmodTayel/Toursy#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
