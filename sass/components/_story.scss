@@ -10,7 +10,7 @@
   transform: skewX(-12deg);
 
   @include respond(tab-port) {
-    width: 50%;
+    width: 48%;
   }
 
   &__shape {

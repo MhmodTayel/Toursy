@@ -550,7 +550,7 @@ body {
   transform: skewX(-12deg); }
   @media (max-width: 900px) {
     .story {
-      width: 50%; } }
+      width: 48%; } }
   .story__shape {
     width: 15rem;
     height: 15rem;
