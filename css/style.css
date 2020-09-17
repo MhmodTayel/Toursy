@@ -674,6 +674,9 @@ body {
   .popup__left {
     width: 33.333%;
     display: table-cell; }
+    @media (max-width: 900px) {
+      .popup__left {
+        display: none; } }
   .popup__right {
     width: 66.666%;
     display: table-cell;
