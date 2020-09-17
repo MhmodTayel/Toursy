@@ -1,5 +1,6 @@
 .composition {
   position: relative;
+  z-index: 100;
 
   &__photo {
     width: 55%;
