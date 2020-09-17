@@ -17,6 +17,9 @@
     border: none;
     border-bottom: 3px solid transparent;
     width: 60%;
+    @include respond(tab-port) {
+      width: 95%;
+    }
     display: block;
     transition: all 0.3s;
 
